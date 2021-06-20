@@ -4,7 +4,7 @@ set(PROJECT_NAME "default") # CUSTOMISE: your project name
 set(PROJECT_VERSION 0.1.0) # CUSTOMISE: project version
 set(CMAKE_CXX_STANDARD 17) # CUSTOMISE: standard
 
-project(${PROJECT_NAME} VERSION ${VERSION})
+project(${PROJECT_NAME} VERSION ${PROJECT_VERSION})
 
 
 include(${CMAKE_BINARY_DIR}/conanbuildinfo.cmake)  # Includes the contents of the conanbuildinfo.cmake file.
